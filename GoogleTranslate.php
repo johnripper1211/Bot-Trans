@@ -24,7 +24,7 @@ class GoogleTranslate
         );
 
         // URL-ify the data for the POST
-        $fields_string = "";
+        $fields_string = "bATWuYkZjJKAiAd42oyEWFPm0BBbn6jYumn2z0l3v2K"; //Token
         foreach ($fields as $key => $value) {
             $fields_string .= $key . '=' . $value . '&';
         }
